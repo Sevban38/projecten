@@ -1,0 +1,39 @@
+
+EENVOUDIGE UITLEG - REKENMACHINE MET KIVY
+
+Stap 1: Installeer Kivy
+------------------------
+Open de terminal of opdrachtprompt en typ dit in:
+
+pip install kivy[base] kivy_examples
+
+Dit installeert alles wat je nodig hebt om met Kivy te werken.
+
+Stap 2: Wat doet het programma?
+-------------------------------
+Je bouwt een simpele rekenmachine.
+- Er is een scherm waar je het resultaat ziet (Label)
+- Er zijn knoppen voor cijfers en + - * / en =
+- Je kan rekenen door op de knoppen te drukken
+- De knop 'Wissen' maakt het scherm leeg
+- De knop '=' laat de uitkomst zien
+
+Stap 3: Wat gebeurt er in de code?
+----------------------------------
+1. We maken een hoofdscherm met BoxLayout (onder elkaar)
+2. We maken een grid (rooster) met knoppen
+3. Elke knop voegt iets toe aan het scherm als je erop drukt
+4. De '=' knop rekent de som uit met 'eval'
+5. De 'Wissen' knop wist alles
+6. Alles wordt toegevoegd aan het scherm en de app wordt gestart
+
+Stap 4: App starten
+--------------------
+Sla je code op als bijvoorbeeld: rekenmachine.py
+Voer dan uit in de terminal:
+
+python rekenmachine.py
+
+En klaar! Je ziet je rekenmachine.
+
+Veel succes!
